@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Open Sans';
+    display: grid;
+    place-items: center;
+}
+.container{
+    height: 1702px;
+    width: 360px;
+}
+.prin{
+    position: absolute;
+    height: 111px;
+    width: 360px;
+    background-image: url(./imagenes/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.prin1{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    position: relative;
+    padding: 8px;
+    background-color: rgba(41, 169, 212, 0.416);
+}
+.prin_list{
+    list-style: none;
+    line-height: 27px;
+}
+.prin_list_direc{
+    color: aliceblue;
+    text-decoration: none;
+}
+.name{
+    height: 50px;
+    width: 160px;
+    border: solid 1px rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(14, 45, 82, 0.639);
+    color: white;
+    padding: 2%;
+}
+.desc{
+    position: absolute;
+    width: 250px;
+    height: 190px;
+    left: calc(50% - 125px);
+    top: 84px;
+    display:grid;
+    place-items: center;
+    text-align: center;
+}
+.desc_foto{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    left: 158px;
+    top: 84px;
+    background-image: url(./imagenes/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: solid 2px #CECECE;
+}
+.desc>h2{
+    color: orange;
+}
+.edit1{
+    color: blue;
+}
+.trabajo{
+    position: absolute;
+    left: calc(50% - 180px );
+    width: 360px;
+    height: 921px;
+    top: 314px; 
+    display: grid;
+    grid-template-areas: "title title"
+    "img1 img2"
+    "img3 img4"
+    "img5 img6"
+    "img7 img8";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr 3fr 3fr 3fr ;
+    place-items: center;
+    background: #F2F2F2;
+}
+.trabajo_title{
+    padding-top: 10px;
+    grid-area: title;
+    font-weight: 600;
+    font-size: 18px;
+}
+.container_img{
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.mg1{
+    height: 150px;
+    width: 150px;
+    background-image: url(./imagenes/tudor-baciu-vc3iVL_znJ8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mg2{
+    height: 150px;
+    width: 150px;
+    background-image: url(./imagenes/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mg3{
+    height: 150px;
+    width: 150px;
+    background-image: url(./imagenes/joan-gamell-ZS67i1HLllo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mg4{
+    height: 150px;
+    width: 150px;
+    background-image: url(./imagenes/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mg5{
+    height: 150px;
+    width: 150px;
+    background-image: url(./imagenes/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mg6{
+    height: 150px;
+    width: 150px;
+    background-image: url(./imagenes/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mg7{
+    height: 150px;
+    width: 150px;
+    background-image: url(./imagenes/ben-kolde-bs2Ba7t69mM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mg8{
+    height: 150px;
+    width: 150px;
+    background-image: url(./imagenes/altumcode-oZ61KFUQsus-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.edit{
+    color: blue;
+    font-weight: 700;
+}
+.edit2{
+    color: #5A5A5A;
+    font-family: 'Open Sans';
+    font-size: 19px;
+    width: 150px;
+    height: 20px;
+}
+.contac{
+    position: absolute;
+    width: 360px;
+    height: 339px;
+    top: 1275px;
+    left: calc(50% - 180px );
+    background: #F5F5F5;
+    display: grid;
+    place-items: center;
+}
+.tex1{
+    width: 310px;
+    height: 35px;
+    border: 2px solid #D9D9D9;
+    font-size: 18px;
+    color: #A4A4A4;
+}
+.tex2{
+    width: 310px;
+    height: 80px;
+    border: 2px solid #D9D9D9;
+    font-size: 18px;
+    color: #A4A4A4;
+}
+.boton{
+    width: 150px;
+    height: 35px;
+    background: #3895EA;
+    font-weight: 400;
+    font-size: 20px;
+}
+.enlaces{
+    position: absolute;
+    width: 360px;
+    height: 48px;
+    left: calc(50% - 180px );
+    top: 1654px;
+    background: #1E2B38;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon1{
+    width: 25px;
+    height: 15px;
+    background: #00ACEE;
+    border-radius: 5px;
+    background-image: url(./imagenes/twitter.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 7.27px 9.23px;
+}
+.icon2{
+    width: 25px;
+    height: 15px;
+    background: #B2071D;
+    border-radius: 5px;
+    background-image: url(./imagenes/youtube.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 7.27px 9.23px;
+}
+.icon3{
+    width: 25px;
+    height: 15px;
+    background: #39569C;
+    border-radius: 5px;
+    background-image: url(./imagenes/facebook-f.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 7.27px 9.23px;
+}
+.icon4{
+    width: 25px;
+    height: 15px;
+    background: #3F729B;
+    border-radius: 5px;
+    background-image: url(./imagenes/instagram.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 7.27px 9.23px;
+}
+.icon5{
+    width: 25px;
+    height: 15px;
+    background: #171515;
+    border-radius: 5px;
+    background-image: url(./imagenes/github.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 7.27px 9.23px;
+}
+@media screen and (min-width: 1440px){
+    .prin{
+        height: 600px;
+        width: 1440px;
+        left: calc(50% - 1440px / 2);
+    }
+    .container{
+        position: relative;
+        width: 1440px;
+        height: 2400px;
+    }
+    .name{
+        grid-area: 1/2;
+        height: 142px;
+        width: 350px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .prin_list{
+        display: flex;
+        grid-area: 1/3;
+        font-weight: 600;
+        font-size: 20px;
+        padding-top:27px;
+        gap: 37px;
+    }
+    .pro{
+        font-size: 25px;
+        
+    }
+    .desc{
+        height: 331px;
+        width: 830px;
+        top: 505px;
+        left: calc(50% - 830px / 2);
+        font-size: 34px;
+    }
+    .desc_small{
+        font-size: 18px;
+        color: #5A5A5A;
+    }
+    .desc_foto{
+        height: 150px;
+        width: 150px;
+        border: solid 7px #CECECE;
+    }
+    .trabajo{
+        height: 790px;
+        width: 1440px;
+        left: calc(50% - 1440px / 2);
+        top: 898px;
+        display: grid;
+        grid-template-areas: "title title title title"
+        "img1 img2 img3 img4"
+        "img5 img6 img7 img8";
+        grid-template-columns: 235.35px 235.35px 235.35px 235.35px  ;
+        grid-template-rows: 0.2fr 1fr 1fr;
+        place-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .trabajo_title{
+        font-size: 34px;
+        padding-top: 40px;
+    }
+    .container_img{
+        width: 235.35px;
+        height: 280px;
+    }
+    .mg1{
+        width: 235px;
+        height: 235.25px;
+    }
+    .mg2{
+        width: 235px;
+        height: 235.25px;
+    }
+    .mg3{
+        width: 235px;
+        height: 235.25px;
+    }
+    .mg4{
+        width: 235px;
+        height: 235.25px;
+    }
+    .mg5{
+        width: 235px;
+        height: 235.25px;
+    }
+    .mg6{
+        width: 235px;
+        height: 235.25px;
+    }
+    .mg7{
+        width: 235px;
+        height: 235.25px;
+    }
+    .mg8{
+        width: 235px;
+        height: 235.25px;
+    }
+    .edit{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .edit2{
+        font-weight: 300;
+        font-size: 14px;
+        margin: auto;
+    }
+    .contac{
+        width: 828.74px;
+        height: 438px;
+        top: 1729.67px;
+        left: calc(50% - 828.74px / 2);
+        display: grid;
+        grid-template-areas: "cont cont"
+        "nombre email"
+        "asunto asunto"
+        "boton boton";
+        grid-template-columns: 330px 330px;
+        grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+        justify-content: center;
+    }
+    .contac_cont{
+        grid-area: cont;
+        padding-top: 30px;
+        font-weight: 300;
+        font-size: 34px;
+        color: #3895EA;
+    }
+    .tex1{ 
+        grid-area: nombre;
+        width: 320px;
+        height: 49.66px;
+        border: 2px solid #D9D9D9;
+        font-size: 18px;
+        background-color:  #F5F5F5;
+        color: #A4A4A4;
+    }
+    .tex11{
+        grid-area: email;
+    }
+    .tex2{
+        grid-area: asunto;
+        width: 660px;
+        height: 99.33px;
+        border: 2px solid #D9D9D9;
+        font-size: 18px;
+        background-color:  #F5F5F5;
+        color: #A4A4A4;
+    }
+    .boton{
+        grid-area:boton ;
+        width: 150px;
+        height: 50.66px;
+    }
+    .enlaces{
+        width: 1440px;
+        height: 192px;
+        top: 2208px;
+        left: calc(50% - 1440px / 2);
+    }
+    .icon1{
+        width: 100px;
+        height: 60px;
+        background-size: 29.07px 36.94px;
+    }
+    .icon2{
+        width: 100px;
+        height: 60px;
+        background-size: 29.07px 36.94px;
+    }
+    .icon3{
+        width: 100px;
+        height: 60px;
+        background-size: 29.07px 36.94px;
+    }
+    .icon4{
+        width: 100px;
+        height: 60px;
+        background-size: 29.07px 36.94px;
+    }
+    .icon5{
+        width: 100px;
+        height: 60px;
+        background-size: 29.07px 36.94px;
+    }
+}
